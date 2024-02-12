@@ -1,0 +1,17 @@
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\bin\Debug\net7.0\Miderator.Infrastracture.deps.json
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\bin\Debug\net7.0\Miderator.Infrastracture.runtimeconfig.json
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\bin\Debug\net7.0\Miderator.Infrastracture.dll
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\bin\Debug\net7.0\Miderator.Infrastracture.pdb
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\bin\Debug\net7.0\Miderator.Domains.dll
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\bin\Debug\net7.0\Miderator.Domains.pdb
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.csproj.AssemblyReference.cache
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.AssemblyInfoInputs.cache
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.AssemblyInfo.cs
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.csproj.CoreCompileInputs.cache
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.csproj.CopyComplete
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.dll
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\refint\Miderator.Infrastracture.dll
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.pdb
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\Miderator.Infrastracture.genruntimeconfig.cache
+D:\4Expalin\midrator\Solution\Miderator.Infrastracture\obj\Debug\net7.0\ref\Miderator.Infrastracture.dll

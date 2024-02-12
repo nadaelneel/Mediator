@@ -1,0 +1,11 @@
+D:\4Expalin\midrator\Solution\Miderator.Domains\bin\Debug\net7.0\Miderator.Domains.deps.json
+D:\4Expalin\midrator\Solution\Miderator.Domains\bin\Debug\net7.0\Miderator.Domains.dll
+D:\4Expalin\midrator\Solution\Miderator.Domains\bin\Debug\net7.0\Miderator.Domains.pdb
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\Miderator.Domains.GeneratedMSBuildEditorConfig.editorconfig
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\Miderator.Domains.AssemblyInfoInputs.cache
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\Miderator.Domains.AssemblyInfo.cs
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\Miderator.Domains.csproj.CoreCompileInputs.cache
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\Miderator.Domains.dll
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\refint\Miderator.Domains.dll
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\Miderator.Domains.pdb
+D:\4Expalin\midrator\Solution\Miderator.Domains\obj\Debug\net7.0\ref\Miderator.Domains.dll

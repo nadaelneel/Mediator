@@ -81,3 +81,8 @@ D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Miderator.Infrastracture.d
 D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Miderator.Application.pdb
 D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Miderator.Domains.pdb
 D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Miderator.Infrastracture.pdb
+D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Humanizer.dll
+D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\4Expalin\midrator\Solution\WepAPI\bin\Debug\net7.0\System.CodeDom.dll

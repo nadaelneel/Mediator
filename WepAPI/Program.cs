@@ -1,5 +1,9 @@
+using Miderator.Infrastracture;
+using Miderator.Application;
 var builder = WebApplication.CreateBuilder(args);
-
+//connection
+builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 // Add services to the container.
 //builder.Services.AddDbContext<my>(i =>
 //{

@@ -1213,6 +1213,22 @@
         "runtime": {
           "bin/placeholder/Miderator.Domains.dll": {}
         }
+      },
+      "Miderator.Infrastracture/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Miderator.Domains": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Miderator.Infrastracture.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Miderator.Infrastracture.dll": {}
+        }
       }
     }
   },
@@ -3611,6 +3627,11 @@
       "type": "project",
       "path": "../Miderator.Domains/Miderator.Domains.csproj",
       "msbuildProject": "../Miderator.Domains/Miderator.Domains.csproj"
+    },
+    "Miderator.Infrastracture/1.0.0": {
+      "type": "project",
+      "path": "../Miderator.Infrastracture/Miderator.Infrastracture.csproj",
+      "msbuildProject": "../Miderator.Infrastracture/Miderator.Infrastracture.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3622,7 +3643,8 @@
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Miderator.Domains >= 1.0.0"
+      "Miderator.Domains >= 1.0.0",
+      "Miderator.Infrastracture >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3654,6 +3676,9 @@
           "projectReferences": {
             "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj": {
               "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj"
+            },
+            "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj"
             }
           }
         }

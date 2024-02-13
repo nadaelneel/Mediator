@@ -1,0 +1,5 @@
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.csproj.AssemblyReference.cache
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.AssemblyInfoInputs.cache
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.AssemblyInfo.cs
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.csproj.CoreCompileInputs.cache

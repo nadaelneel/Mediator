@@ -9,10 +9,10 @@ namespace Miderator.Infrastracture.Repository
 {
     public interface IManger<T> where T : class
     {
-        T GetById(int id);
+        Task<T> GetById(Guid id);
         IQueryable<T> GetAll();
-        EntityEntry<T> AddAync(T entity);
-        EntityEntry<T> UpdateAync(T entity);
-        EntityEntry<T> DeleteAync(T entity);
+        Task<T> AddAync(T entity);
+        Task<T> UpdateAync(T entity);
+        Task<T> DeleteAync(T entity);
     }
 }

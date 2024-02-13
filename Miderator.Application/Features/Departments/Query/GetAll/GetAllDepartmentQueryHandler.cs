@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using Miderator.Application.Features.Departments.Query.GetAll.Dots;
 using Miderator.Domains;
 using Miderator.Infrastracture.Repository;
 using Miderator.Infrastracture.UniteOfWork;
@@ -9,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Departments.Query.GetAll.Dots
+namespace Miderator.Application.Features.Departments.Query.GetAll
 {
     public class GetAllDepartmentQueryHandler : IRequestHandler<GetAllDepartmentQuery, List<GetAllDepartmentDots>>
     {

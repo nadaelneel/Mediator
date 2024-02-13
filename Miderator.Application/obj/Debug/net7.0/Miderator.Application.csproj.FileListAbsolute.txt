@@ -3,3 +3,17 @@ D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.A
 D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.AssemblyInfoInputs.cache
 D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.AssemblyInfo.cs
 D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.csproj.CoreCompileInputs.cache
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Application.deps.json
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Application.runtimeconfig.json
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Application.dll
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Application.pdb
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Domains.dll
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Infrastracture.dll
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Domains.pdb
+D:\4Expalin\midrator\Solution\Miderator.Application\bin\Debug\net7.0\Miderator.Infrastracture.pdb
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.csproj.CopyComplete
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.dll
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\refint\Miderator.Application.dll
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.pdb
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\Miderator.Application.genruntimeconfig.cache
+D:\4Expalin\midrator\Solution\Miderator.Application\obj\Debug\net7.0\ref\Miderator.Application.dll

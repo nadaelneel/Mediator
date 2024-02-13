@@ -30,6 +30,7 @@ namespace Miderator.Application.Features.Departments.Command.Delete
              
             department.IsDeleted = true;
              manger.UpdateAync(department);
+            uniteOfWork.Commit();
             return Unit.Value;
         }
     }

@@ -4,12 +4,12 @@
     "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj": {}
   },
   "projects": {
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj": {
+    "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj",
-        "projectName": "Miderator.Application",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
+        "projectName": "Mediator.Application",
+        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
         "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj"
+              "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj"
               },
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj"
+              "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
               }
             }
           }
@@ -100,12 +100,12 @@
         }
       }
     },
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj": {
+    "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj",
-        "projectName": "Miderator.Domains",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
+        "projectName": "Mediator.Domains",
+        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
         "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\obj\\",
         "projectStyle": "PackageReference",
@@ -155,12 +155,12 @@
         }
       }
     },
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj": {
+    "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj",
-        "projectName": "Miderator.Infrastracture",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
+        "projectName": "Mediator.Infrastracture",
+        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
         "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\obj\\",
         "projectStyle": "PackageReference",
@@ -179,8 +179,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj"
+              "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj"
               }
             }
           }
@@ -264,11 +264,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj"
+              "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj"
               },
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj"
+              "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
               }
             }
           }

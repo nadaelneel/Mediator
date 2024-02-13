@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj",
-      "projectName": "Miderator.Domains",
-      "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj",
+      "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
+      "projectName": "Mediator.Domains",
+      "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
       "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
       "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\obj\\",
       "projectStyle": "PackageReference",

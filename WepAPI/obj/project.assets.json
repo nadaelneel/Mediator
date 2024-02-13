@@ -1299,49 +1299,49 @@
           }
         }
       },
-      "Miderator.Application/1.0.0": {
+      "Mediator.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Mediator.Domains": "1.0.0",
+          "Mediator.Infrastracture": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Miderator.Domains": "1.0.0",
-          "Miderator.Infrastracture": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/Miderator.Application.dll": {}
+          "bin/placeholder/Mediator.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Miderator.Application.dll": {}
+          "bin/placeholder/Mediator.Application.dll": {}
         }
       },
-      "Miderator.Domains/1.0.0": {
+      "Mediator.Domains/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Miderator.Domains.dll": {}
+          "bin/placeholder/Mediator.Domains.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Miderator.Domains.dll": {}
+          "bin/placeholder/Mediator.Domains.dll": {}
         }
       },
-      "Miderator.Infrastracture/1.0.0": {
+      "Mediator.Infrastracture/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Mediator.Domains": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Miderator.Domains": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/Miderator.Infrastracture.dll": {}
+          "bin/placeholder/Mediator.Infrastracture.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Miderator.Infrastracture.dll": {}
+          "bin/placeholder/Mediator.Infrastracture.dll": {}
         }
       }
     }
@@ -4065,29 +4065,29 @@
         "version.txt"
       ]
     },
-    "Miderator.Application/1.0.0": {
+    "Mediator.Application/1.0.0": {
       "type": "project",
-      "path": "../Miderator.Application/Miderator.Application.csproj",
-      "msbuildProject": "../Miderator.Application/Miderator.Application.csproj"
+      "path": "../Miderator.Application/Mediator.Application.csproj",
+      "msbuildProject": "../Miderator.Application/Mediator.Application.csproj"
     },
-    "Miderator.Domains/1.0.0": {
+    "Mediator.Domains/1.0.0": {
       "type": "project",
-      "path": "../Miderator.Domains/Miderator.Domains.csproj",
-      "msbuildProject": "../Miderator.Domains/Miderator.Domains.csproj"
+      "path": "../Miderator.Domains/Mediator.Domains.csproj",
+      "msbuildProject": "../Miderator.Domains/Mediator.Domains.csproj"
     },
-    "Miderator.Infrastracture/1.0.0": {
+    "Mediator.Infrastracture/1.0.0": {
       "type": "project",
-      "path": "../Miderator.Infrastracture/Miderator.Infrastracture.csproj",
-      "msbuildProject": "../Miderator.Infrastracture/Miderator.Infrastracture.csproj"
+      "path": "../Miderator.Infrastracture/Mediator.Infrastracture.csproj",
+      "msbuildProject": "../Miderator.Infrastracture/Mediator.Infrastracture.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "MediatR >= 12.2.0",
+      "Mediator.Application >= 1.0.0",
+      "Mediator.Infrastracture >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
-      "Miderator.Application >= 1.0.0",
-      "Miderator.Infrastracture >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -4118,11 +4118,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj": {
-              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj"
+            "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj"
             },
-            "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj": {
-              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj"
+            "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
             }
           }
         }

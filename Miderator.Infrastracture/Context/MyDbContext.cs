@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Miderator.Domains;
-using Miderator.Infrastracture.Configuration;
+using Mediator.Domains;
+using Mediator.Infrastracture.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Infrastracture.Context
+namespace Mediator.Infrastracture.Context
 {
     public class MyDbContext  : DbContext
     {

@@ -9,10 +9,10 @@
       "WepAPI/1.0.0": {
         "dependencies": {
           "MediatR": "12.2.0",
+          "Mediator.Application": "1.0.0",
+          "Mediator.Infrastracture": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.10",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
-          "Miderator.Application": "1.0.0",
-          "Miderator.Infrastracture": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -731,34 +731,34 @@
           }
         }
       },
-      "Miderator.Application/1.0.0": {
+      "Mediator.Application/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Mediator.Domains": "1.0.0",
+          "Mediator.Infrastracture": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Miderator.Domains": "1.0.0",
-          "Miderator.Infrastracture": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "Miderator.Application.dll": {}
+          "Mediator.Application.dll": {}
         }
       },
-      "Miderator.Domains/1.0.0": {
+      "Mediator.Domains/1.0.0": {
         "runtime": {
-          "Miderator.Domains.dll": {}
+          "Mediator.Domains.dll": {}
         }
       },
-      "Miderator.Infrastracture/1.0.0": {
+      "Mediator.Infrastracture/1.0.0": {
         "dependencies": {
+          "Mediator.Domains": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Miderator.Domains": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "Miderator.Infrastracture.dll": {}
+          "Mediator.Infrastracture.dll": {}
         }
       }
     }
@@ -1315,17 +1315,17 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "Miderator.Application/1.0.0": {
+    "Mediator.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Miderator.Domains/1.0.0": {
+    "Mediator.Domains/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Miderator.Infrastracture/1.0.0": {
+    "Mediator.Infrastracture/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

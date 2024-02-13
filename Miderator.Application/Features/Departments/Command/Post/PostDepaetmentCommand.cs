@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Departments.Command.Post
+namespace Mediator.Application.Features.Departments.Command.Post
 {
     public class PostDepaetmentCommand : IRequest
     {

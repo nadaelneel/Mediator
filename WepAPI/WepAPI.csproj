@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Miderator.Application\Miderator.Application.csproj" />
-    <ProjectReference Include="..\Miderator.Infrastracture\Miderator.Infrastracture.csproj" />
+    <ProjectReference Include="..\Miderator.Application\Mediator.Application.csproj" />
+    <ProjectReference Include="..\Miderator.Infrastracture\Mediator.Infrastracture.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pRWah5bLTgKpO0u6imn2z/bqfJkxKUfdaOjGJdtveMwMIJAWcqtnOhPM6+N+oH8JVBiCs+vXKCGZvVLVsvCCWA==",
+  "dgSpecHash": "mWnd6nlpSI1x1uWvDgDr1PgmCKYBHm2OfLMeZqvsW3Z7UbXlpWI8xBSLx0EpECR1dvvcV4NDsF9DIG8XEUX+4g==",
   "success": true,
-  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj",
+  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mega Store\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

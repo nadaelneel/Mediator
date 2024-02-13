@@ -1,13 +1,11 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Miderator.Application.Features.Users.Command.Delete;
-using Miderator.Application.Features.Users.Command.Post;
-using Miderator.Application.Features.Users.Command.Put;
-using Miderator.Application.Features.Users.Command.Put.DOTs;
-using Miderator.Application.Features.Users.Query.GetAll;
-using Miderator.Application.Features.Users.Query.GetAll.DOTs;
-using Miderator.Infrastracture.ResponseDots;
+using Mediator.Application.Features.Users.Command.Delete;
+using Mediator.Application.Features.Users.Command.Post;
+using Mediator.Application.Features.Users.Command.Put;
+using Mediator.Application.Features.Users.Command.Put.DOTs;
+using Mediator.Application.Features.Users.Query.GetAll;
+using Mediator.Application.Features.Users.Query.GetAll.DOTs;
 
 namespace WepAPI.Controllers
 {
@@ -21,30 +19,33 @@ namespace WepAPI.Controllers
         {
             this.mediator = mediator;
         }
-        [HttpGet( Name = "GetAllUsers")]
+
+        [HttpGet]
+        [Route("GetAllUsers")]
         public async Task<ActionResult<List<GetAllUserDots>>> GetAll()
         {
             var Users = await mediator.Send(new GetAllUserQuery());
             return Ok(Users);
         }
-        [HttpPost(Name = "AddUser")]
+        [HttpPost]
+        [Route("AddUser")]
         public async Task<IActionResult> Add(PostUserCommand userCommand)
         {
              await mediator.Send(userCommand);
             return Ok();
           
         }
-        [HttpPut(Name = "UpdateUser")]
-        [Route("{id}")]
-        public async Task<ActionResult> Update(Guid id, PutRequestUserDots request)
+        [HttpPut]
+        [Route("UpdateUser/{id}")]
+        public async Task<ActionResult> Update(int id, PutRequestUserDots request)
         {
             await mediator.Send(new PutUserCommand() { Id =id, PutRequestUserDots = request});
             return Ok();
         }
 
-        [HttpDelete(Name = "DeleteUser")]
-        [Route("{id}")]
-        public async Task<IActionResult> Delete(Guid id)
+        [HttpDelete]
+        [Route("DeleteUser/{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
              await mediator.Send(new DeleteUserCommand() { Id = id });
             return Ok();

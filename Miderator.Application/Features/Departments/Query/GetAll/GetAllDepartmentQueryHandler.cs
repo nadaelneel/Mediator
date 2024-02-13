@@ -1,16 +1,16 @@
 ﻿using AutoMapper;
 using MediatR;
-using Miderator.Application.Features.Departments.Query.GetAll.Dots;
-using Miderator.Domains;
-using Miderator.Infrastracture.Repository;
-using Miderator.Infrastracture.UniteOfWork;
+using Mediator.Application.Features.Departments.Query.GetAll.Dots;
+using Mediator.Domains;
+using Mediator.Infrastracture.Repository;
+using Mediator.Infrastracture.UniteOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Departments.Query.GetAll
+namespace Mediator.Application.Features.Departments.Query.GetAll
 {
     public class GetAllDepartmentQueryHandler : IRequestHandler<GetAllDepartmentQuery, List<GetAllDepartmentDots>>
     {

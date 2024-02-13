@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Miderator.Infrastracture.Context;
+using Mediator.Infrastracture.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Infrastracture
+namespace Mediator.Infrastracture
 {
     public static class PersistenceContainer
     {

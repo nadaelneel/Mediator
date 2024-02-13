@@ -1,15 +1,16 @@
 ﻿using AutoMapper;
 using MediatR;
-using Miderator.Domains;
-using Miderator.Infrastracture.Repository;
-using Miderator.Infrastracture.UniteOfWork;
+using Mediator.Application.Features.Users.Command.Put;
+using Mediator.Domains;
+using Mediator.Infrastracture.Repository;
+using Mediator.Infrastracture.UniteOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Users.Command.Put
+namespace Mediator.Application.Features.Users.Command.Put
 {
     public class PutUserCommandHandler : IRequestHandler<PutUserCommand>
     {

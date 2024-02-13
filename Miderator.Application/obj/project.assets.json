@@ -1204,30 +1204,30 @@
           }
         }
       },
-      "Miderator.Domains/1.0.0": {
+      "Mediator.Domains/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Miderator.Domains.dll": {}
+          "bin/placeholder/Mediator.Domains.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Miderator.Domains.dll": {}
+          "bin/placeholder/Mediator.Domains.dll": {}
         }
       },
-      "Miderator.Infrastracture/1.0.0": {
+      "Mediator.Infrastracture/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Mediator.Domains": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Miderator.Domains": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/Miderator.Infrastracture.dll": {}
+          "bin/placeholder/Mediator.Infrastracture.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Miderator.Infrastracture.dll": {}
+          "bin/placeholder/Mediator.Infrastracture.dll": {}
         }
       }
     }
@@ -3623,28 +3623,28 @@
         "version.txt"
       ]
     },
-    "Miderator.Domains/1.0.0": {
+    "Mediator.Domains/1.0.0": {
       "type": "project",
-      "path": "../Miderator.Domains/Miderator.Domains.csproj",
-      "msbuildProject": "../Miderator.Domains/Miderator.Domains.csproj"
+      "path": "../Miderator.Domains/Mediator.Domains.csproj",
+      "msbuildProject": "../Miderator.Domains/Mediator.Domains.csproj"
     },
-    "Miderator.Infrastracture/1.0.0": {
+    "Mediator.Infrastracture/1.0.0": {
       "type": "project",
-      "path": "../Miderator.Infrastracture/Miderator.Infrastracture.csproj",
-      "msbuildProject": "../Miderator.Infrastracture/Miderator.Infrastracture.csproj"
+      "path": "../Miderator.Infrastracture/Mediator.Infrastracture.csproj",
+      "msbuildProject": "../Miderator.Infrastracture/Mediator.Infrastracture.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
+      "Mediator.Domains >= 1.0.0",
+      "Mediator.Infrastracture >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Miderator.Domains >= 1.0.0",
-      "Miderator.Infrastracture >= 1.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -3653,9 +3653,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj",
-      "projectName": "Miderator.Application",
-      "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj",
+      "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
+      "projectName": "Mediator.Application",
+      "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
       "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
       "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\obj\\",
       "projectStyle": "PackageReference",
@@ -3674,11 +3674,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj": {
-              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj"
+            "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj"
             },
-            "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj": {
-              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Miderator.Infrastracture.csproj"
+            "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
             }
           }
         }

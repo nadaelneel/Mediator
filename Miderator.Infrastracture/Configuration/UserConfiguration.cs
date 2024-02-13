@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Miderator.Domains;
+using Mediator.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Infrastracture.Configuration
+namespace Mediator.Infrastracture.Configuration
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
     {

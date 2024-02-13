@@ -1,12 +1,7 @@
 ﻿using MediatR;
-using Miderator.Application.Features.Users.Query.GetAll.DOTs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Mediator.Application.Features.Users.Query.GetAll.DOTs;
 
-namespace Miderator.Application.Features.Users.Query.GetAll
+namespace Mediator.Application.Features.Users.Query.GetAll
 {
     public class GetAllUserQuery : IRequest<List<GetAllUserDots>>
     {

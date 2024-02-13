@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Infrastracture.Repository
+namespace Mediator.Infrastracture.Repository
 {
     public interface IManger<T> where T : class
     {
-        Task<T> GetById(Guid id);
+        Task<T> GetById(int id);
         IQueryable<T> GetAll();
-        Task<T> AddAync(T entity);
-        Task<T> UpdateAync(T entity);
-        Task<T> DeleteAync(T entity);
+        EntityEntry<T> AddAync(T entity);
+        EntityEntry<T> UpdateAync(T entity);
+        EntityEntry<T> DeleteAync(T entity);
     }
 }

@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
 using MediatR;
-using Miderator.Domains;
-using Miderator.Infrastracture.Repository;
-using Miderator.Infrastracture.UniteOfWork;
+using Mediator.Domains;
+using Mediator.Infrastracture.Repository;
+using Mediator.Infrastracture.UniteOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Departments.Command.Post
+namespace Mediator.Application.Features.Departments.Command.Post
 {
     public class PostDepartmentCommandHandler : IRequestHandler<PostDepaetmentCommand>
     {
@@ -27,7 +27,7 @@ namespace Miderator.Application.Features.Departments.Command.Post
         public async Task<Unit> Handle(PostDepaetmentCommand request, CancellationToken cancellationToken)
         {
             Department department = mapper.Map<Department>(request);
-            department = await this.manger.AddAync(department);
+            this.manger.AddAync(department);
             this.uniteOfWork.Commit();
 
             return Unit.Value;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zEjA17M93TeD8cKp9wj9hu29ckFefvVE8ldD1Kcn4tAkohrBBmvt9dGKln0CmJgNdL8BQ11A19cJXSufYo85LQ==",
+  "dgSpecHash": "b4vJqG8Q7ZDpByn1SHv1LQLnUS9dILVRZe7bKkS5qmOkQL03cdlXFUk8amGLrc0LIytXXjpoKWRLknC+vaV+KQ==",
   "success": true,
-  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Miderator.Application.csproj",
+  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mega Store\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

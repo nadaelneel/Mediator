@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Departments.Query.GetAll.Dots
+namespace Mediator.Application.Features.Departments.Query.GetAll.Dots
 {
     public class GetAllDepartmentDots
     {
-        public Guid Id { set; get; }
+        public int Id { set; get; }
         public string Name { get; set; }
 
         public List<string> UsersName { get; set; }

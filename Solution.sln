@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miderator.Domains", "Miderator.Domains\Miderator.Domains.csproj", "{A7B1942F-9CD4-455F-BA6D-D99D216A9614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Domains", "Miderator.Domains\Mediator.Domains.csproj", "{A7B1942F-9CD4-455F-BA6D-D99D216A9614}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{003BC457-995C-4643-A6B8-C463DD28D267}"
 EndProject
@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{DA7D1F3B-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{49D1FB2F-B38C-4ABA-AE04-D8E8867B4841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miderator.Application", "Miderator.Application\Miderator.Application.csproj", "{201D4458-0AED-4D5A-8FDA-3FADFAE6E03F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Application", "Miderator.Application\Mediator.Application.csproj", "{201D4458-0AED-4D5A-8FDA-3FADFAE6E03F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miderator.Infrastracture", "Miderator.Infrastracture\Miderator.Infrastracture.csproj", "{36B0F76F-AD92-44DE-9960-696BBC8CB522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Infrastracture", "Miderator.Infrastracture\Mediator.Infrastracture.csproj", "{36B0F76F-AD92-44DE-9960-696BBC8CB522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepAPI", "WepAPI\WepAPI.csproj", "{36B4C470-3193-4ED1-AECD-0DC92272FE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepAPI", "WepAPI\WepAPI.csproj", "{36B4C470-3193-4ED1-AECD-0DC92272FE18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

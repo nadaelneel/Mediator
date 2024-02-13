@@ -1,12 +1,12 @@
-﻿using Miderator.Infrastracture.Context;
-using Miderator.Infrastracture.Repository;
+﻿using Mediator.Infrastracture.Context;
+using Mediator.Infrastracture.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Infrastracture.UniteOfWork
+namespace Mediator.Infrastracture.UniteOfWork
 {
     public class UniteOfWork : IUniteOfWork
     {

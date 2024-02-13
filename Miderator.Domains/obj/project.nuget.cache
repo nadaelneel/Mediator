@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RG6u4P8hxz3/YshfiMqKeujPtkl8hz81/7fxsZUt0bWYll7eEDpG5ZBUr+4gNJjdsnCQJX6rS9Y/4Ld3NbqJBQ==",
+  "dgSpecHash": "qLHgsjj+Pmo8eLGNcLolXlLQJQ7iJZ2luVoX7C2epVyacfFeqfWqHTI5rIp57uOhUZeRNrtVgDbErRWovcxKmg==",
   "success": true,
-  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Miderator.Domains.csproj",
+  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

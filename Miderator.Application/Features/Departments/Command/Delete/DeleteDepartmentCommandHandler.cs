@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
 using MediatR;
-using Miderator.Domains;
-using Miderator.Infrastracture.Repository;
-using Miderator.Infrastracture.UniteOfWork;
+using Mediator.Domains;
+using Mediator.Infrastracture.Repository;
+using Mediator.Infrastracture.UniteOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miderator.Application.Features.Departments.Command.Delete
+namespace Mediator.Application.Features.Departments.Command.Delete
 {
     public class DeleteDepartmentCommandHandler : IRequestHandler<DeleteDepartmentCommand>
     {

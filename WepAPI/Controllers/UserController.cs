@@ -22,13 +22,13 @@ namespace WepAPI.Controllers
             this.mediator = mediator;
         }
         [HttpGet( Name = "GetAllUsers")]
-        public async Task<ActionResult<List<GetAllUserDots>>> GetAllPosts()
+        public async Task<ActionResult<List<GetAllUserDots>>> GetAll()
         {
             var Users = await mediator.Send(new GetAllUserQuery());
             return Ok(Users);
         }
         [HttpPost(Name = "AddUser")]
-        public async Task<IActionResult> AddPost(PostUserCommand userCommand)
+        public async Task<IActionResult> Add(PostUserCommand userCommand)
         {
              await mediator.Send(userCommand);
             return Ok();

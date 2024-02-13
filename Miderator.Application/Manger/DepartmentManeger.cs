@@ -20,12 +20,12 @@ namespace Mediator.Application.Manger
             _db = db;
             Set = _db.Set<Department>();
         }
-        public EntityEntry<Department> AddAync(Department entity)
+        public EntityEntry<Department> Add(Department entity)
         {
             return Set.Add(entity);
         }
 
-        public EntityEntry<Department> DeleteAync(Department entity)
+        public EntityEntry<Department> Delete(Department entity)
         {
             return Set.Remove(entity);
         }
@@ -40,7 +40,7 @@ namespace Mediator.Application.Manger
             return Set.Where(i => i.Id == id).AsNoTracking().FirstOrDefault();
         }
 
-        public EntityEntry<Department> UpdateAync(Department entity)
+        public EntityEntry<Department> Update(Department entity)
         {
             return Set.Update(entity);
         }

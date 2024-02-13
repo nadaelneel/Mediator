@@ -29,7 +29,7 @@ namespace Mediator.Application.Features.Users.Command.Delete
             var user = await  manger.GetById(request.Id);
 
             user.IsDeleted = true;
-            manger.UpdateAync(user);
+            manger.Update(user);
             uniteOfWork.Commit();
             return Unit.Value;
         }

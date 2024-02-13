@@ -27,7 +27,7 @@ namespace Mediator.Application.Features.Departments.Command.Post
         public async Task<Unit> Handle(PostDepaetmentCommand request, CancellationToken cancellationToken)
         {
             Department department = mapper.Map<Department>(request);
-            this.manger.AddAync(department);
+            this.manger.Add(department);
             this.uniteOfWork.Commit();
 
             return Unit.Value;

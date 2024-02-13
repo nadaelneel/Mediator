@@ -27,7 +27,7 @@ namespace Mediator.Application.Features.Users.Command.Post
         public async Task<Unit> Handle(PostUserCommand request, CancellationToken cancellationToken)
         {
             User user = mapper.Map<User>(request);
-            this.manger.AddAync(user);
+            this.manger.Add(user);
             this.uniteOfWork.Commit();
 
             return Unit.Value;

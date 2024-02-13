@@ -11,8 +11,8 @@ namespace Mediator.Infrastracture.Repository
     {
         Task<T> GetById(int id);
         IQueryable<T> GetAll();
-        EntityEntry<T> AddAync(T entity);
-        EntityEntry<T> UpdateAync(T entity);
-        EntityEntry<T> DeleteAync(T entity);
+        EntityEntry<T> Add(T entity);
+        EntityEntry<T> Update(T entity);
+        EntityEntry<T> Delete(T entity);
     }
 }

@@ -29,7 +29,7 @@ namespace Mediator.Application.Features.Departments.Command.Delete
             var department = await manger.GetById(request.Id);
              
             department.IsDeleted = true;
-             manger.UpdateAync(department);
+             manger.Update(department);
             uniteOfWork.Commit();
             return Unit.Value;
         }

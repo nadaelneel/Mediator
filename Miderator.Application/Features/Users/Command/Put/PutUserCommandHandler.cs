@@ -31,7 +31,7 @@ namespace Mediator.Application.Features.Users.Command.Put
 
             user.Name = request.PutRequestUserDots.Name;
             user.IsDeleted = request.PutRequestUserDots.IsDelete;
-            this.manger.UpdateAync(user);
+            this.manger.Update(user);
             this.uniteOfWork.Commit();
 
             return Unit.Value;

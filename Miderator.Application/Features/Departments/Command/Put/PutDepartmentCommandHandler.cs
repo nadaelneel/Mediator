@@ -30,7 +30,7 @@ namespace Mediator.Application.Features.Departments.Command.Put
             
             department.Name = request.PutRequestDepartmentDots.Name;
             department.IsDeleted = request.PutRequestDepartmentDots.IsDelete;
-            this.manger.UpdateAync(department);
+            this.manger.Update(department);
             this.uniteOfWork.Commit();
 
             return Unit.Value;

@@ -1,6 +1,5 @@
 ﻿using Mediator.Domains;
 using Mediator.Infrastracture.Context;
-using Mediator.Infrastracture.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
@@ -9,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mediator.Application.Manger
+namespace Mediator.Application.Interface
 {
     public class UserManger : IManger<User> 
     {
@@ -32,7 +31,7 @@ namespace Mediator.Application.Manger
 
         public IQueryable<User> GetAll()
         {
-            return Set;
+            return Set.Where(i => i.IsDeleted == false);
         }
 
         public async Task<User> GetById(int id)

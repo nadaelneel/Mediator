@@ -1,5 +1,5 @@
-﻿using Mediator.Infrastracture.Context;
-using Mediator.Infrastracture.Repository;
+﻿using Mediator.Application.Interface;
+using Mediator.Infrastracture.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;

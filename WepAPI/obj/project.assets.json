@@ -118,19 +118,6 @@
           }
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
-        "type": "package",
-        "dependencies": {
-          "MediatR": "[11.0.0, 12.0.0)",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.OpenApi/7.0.10": {
         "type": "package",
         "dependencies": {
@@ -1304,9 +1291,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "MediatR": "12.2.0",
           "Mediator.Domains": "1.0.0",
-          "Mediator.Infrastracture": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
@@ -1332,6 +1318,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Mediator.Application": "1.0.0",
           "Mediator.Domains": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
@@ -1460,19 +1447,6 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
-      ]
-    },
-    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
-      "sha512": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
-      "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "gradient_128x128.png",
-        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/7.0.10": {
@@ -4083,7 +4057,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MediatR >= 12.2.0",
       "Mediator.Application >= 1.0.0",
       "Mediator.Infrastracture >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
@@ -4097,11 +4070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj",
+      "projectUniqueName": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj",
       "projectName": "WepAPI",
-      "projectPath": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj",
+      "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj",
       "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-      "outputPath": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\obj\\",
+      "outputPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4118,11 +4091,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj": {
-              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj"
+            "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj"
             },
-            "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
-              "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
+            "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+              "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
             }
           }
         }
@@ -4137,10 +4110,6 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "MediatR": {
-            "target": "Package",
-            "version": "[12.2.0, )"
-          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.10, )"
@@ -4178,17 +4147,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

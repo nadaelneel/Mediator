@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "drXBGMix53D5uuhZvxCbsjyDTTfehxn1Wx7TrhK9z9HuorGweGh21TEwciT03q3rxs3IBoU3AEiLh+mKy/W2kw==",
+  "dgSpecHash": "fhVVYz76sWS60CqM0PFVaiIwtbe8csida2n+MD4iNHoff4PjCNVYJygF4mIZ7JPBPiLgecWr1xhLrX5xL3lH4w==",
   "success": true,
-  "projectFilePath": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj",
+  "projectFilePath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mega Store\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -11,7 +11,6 @@
     "C:\\Users\\Mega Store\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Mega Store\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -83,16 +82,5 @@
     "C:\\Users\\Mega Store\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

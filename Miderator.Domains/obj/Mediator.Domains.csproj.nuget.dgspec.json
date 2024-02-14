@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {}
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj": {}
   },
   "projects": {
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj",
         "projectName": "Mediator.Domains",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
+        "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\obj\\",
+        "outputPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",

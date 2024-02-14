@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mediator.Infrastracture.Repository
+namespace Mediator.Application.Interface
 {
     public interface IUniteOfWork
     {

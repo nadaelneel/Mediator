@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj": {}
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj": {}
   },
   "projects": {
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj": {
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj",
         "projectName": "Mediator.Application",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj",
+        "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\obj\\",
+        "outputPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj"
-              },
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
+              "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj"
               }
             }
           }
@@ -51,9 +48,9 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "MediatR": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[12.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -100,14 +97,14 @@
         }
       }
     },
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj",
         "projectName": "Mediator.Domains",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj",
+        "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\obj\\",
+        "outputPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,14 +152,14 @@
         }
       }
     },
-    "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
         "projectName": "Mediator.Infrastracture",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
+        "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\obj\\",
+        "outputPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -179,8 +176,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Domains\\Mediator.Domains.csproj"
+              "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj"
+              },
+              "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Domains\\Mediator.Domains.csproj"
               }
             }
           }
@@ -240,14 +240,14 @@
         }
       }
     },
-    "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj": {
+    "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj",
+        "projectUniqueName": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj",
         "projectName": "WepAPI",
-        "projectPath": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\WepAPI.csproj",
+        "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\WepAPI.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "D:\\4Expalin\\midrator\\Solution\\WepAPI\\obj\\",
+        "outputPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\WepAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -264,11 +264,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Application\\Mediator.Application.csproj"
+              "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Application\\Mediator.Application.csproj"
               },
-              "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
-                "projectPath": "D:\\4Expalin\\midrator\\Solution\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
+              "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj": {
+                "projectPath": "D:\\4Expalin\\midrator\\lasr\\Mediator\\Miderator.Infrastracture\\Mediator.Infrastracture.csproj"
               }
             }
           }
@@ -283,10 +283,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.2.0, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"

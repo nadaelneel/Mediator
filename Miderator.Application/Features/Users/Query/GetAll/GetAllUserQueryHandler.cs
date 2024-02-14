@@ -3,12 +3,12 @@ using MediatR;
 using Mediator.Application.Features.Departments.Query.GetAll.Dots;
 using Mediator.Application.Features.Users.Query.GetAll.DOTs;
 using Mediator.Domains;
-using Mediator.Infrastracture.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Mediator.Application.Interface;
 
 namespace Mediator.Application.Features.Users.Query.GetAll
 {

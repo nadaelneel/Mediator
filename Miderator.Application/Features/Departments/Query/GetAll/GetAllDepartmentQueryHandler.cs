@@ -2,8 +2,7 @@
 using MediatR;
 using Mediator.Application.Features.Departments.Query.GetAll.Dots;
 using Mediator.Domains;
-using Mediator.Infrastracture.Repository;
-using Mediator.Infrastracture.UniteOfWork;
+using Mediator.Application.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;

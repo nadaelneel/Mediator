@@ -32,12 +32,12 @@ namespace Mediator.Application.Interface
 
         public IQueryable<Department> GetAll()
         {
-            return Set.Where(i=>i.IsDeleted == false);
+            return Set.Where(i=>i.IsDeleted == false).Include(i=>i.Users);
         }
 
         public async Task<Department> GetById(int id)
         {
-            return Set.Where(i => i.Id == id).AsNoTracking().FirstOrDefault();
+            return Set.Where(i => i.Id == id).AsNoTracking().Include(i=>i.Users).FirstOrDefault();
         }
 
         public EntityEntry<Department> Update(Department entity)

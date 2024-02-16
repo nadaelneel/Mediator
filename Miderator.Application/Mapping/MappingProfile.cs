@@ -21,17 +21,19 @@ namespace Mediator.Application.Mapping
         public MappingProfile() 
         {
             #region Department
-            CreateMap<Department, GetAllDepartmentDots>().ReverseMap();
+            CreateMap<Department, GetAllDepartmentDots>()
+                .ForMember(dept=>dept.UsersName,op=>op.MapFrom(src=>src.Users.Select(i=>i.Name)));
             CreateMap<PostDepaetmentCommand, Department>();
-            CreateMap<PutDepartmentCommand,Department>().ReverseMap();
-            CreateMap<DeleteDepartmentCommand,Department>().ReverseMap();
+            CreateMap<PutDepartmentCommand,Department>();
+            CreateMap<DeleteDepartmentCommand,Department>();
             #endregion
 
             #region User
-            CreateMap<User, GetAllUserDots>().ReverseMap();
+            CreateMap<User, GetAllUserDots>()
+                .ForMember(u=>u.DepartmentName,op=>op.MapFrom(src=>src.Department.Name));
             CreateMap<PostUserCommand, User>();
-            CreateMap<PutUserCommand, User>().ReverseMap();
-            CreateMap<DeleteUserCommand, User>().ReverseMap();
+            CreateMap<PutUserCommand, User>();
+            CreateMap<DeleteUserCommand, User>();
             #endregion
         }
 

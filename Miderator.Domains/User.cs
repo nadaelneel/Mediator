@@ -12,6 +12,6 @@ namespace Mediator.Domains
         public string Name { get; set; }
         public bool IsDeleted { get; set; }
         public int DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public  Department Department { get; set; }
     }
 }

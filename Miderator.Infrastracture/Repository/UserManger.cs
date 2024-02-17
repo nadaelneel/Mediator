@@ -36,7 +36,7 @@ namespace Mediator.Application.Interface
 
         public async Task<User> GetById(int id)
         {
-            return Set.Where(i => i.Id == id).AsNoTracking().Include(i=>i.Department).FirstOrDefault();
+            return Set.Where(i => i.Id == id).Include(i=>i.Department).FirstOrDefault();
         }
 
         public EntityEntry<User> Update(User entity)
